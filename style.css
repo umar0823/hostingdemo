@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.8)url(food.jpg) center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+
+}
+.navbar ul li a:hover{
+    border-radius: 20%;
+    box-shadow: 5px 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
+
+}
+.navbar .Reservation{
+    padding: 8px;
+    background-color: orangered;
+
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 25%;
+}
+.content h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-left: 30%;
+
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    text-align: center;
+    margin-top: 17px;
+}
+.Search{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 39%;
+
+}
+.Search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+.Submit{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 47%;
+}
+.Submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
